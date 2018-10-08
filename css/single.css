@@ -1,0 +1,331 @@
+body {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #f9f7f6;
+  margin: 0;
+  display: block;
+}
+
+header div.six.columns:last-child {
+  text-align: right;
+}
+
+header {
+  border-bottom: 1px solid #c9c9c9;  
+}
+
+div.six.columns h1:first-child {
+  line-height: 83px;
+  margin: 0;
+  color: #e10707;
+  font-size: 35px;
+}
+
+.button.button-primary {
+  margin-right: -40px;
+}
+
+/* Navigation
+  --------------------------------------------------------------------------- */
+ul.navigation li{
+  display: inline;
+  padding-right: 10px;
+}
+
+ul.navigation li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+ul.navigation li a:hover {
+  text-decoration: underline;
+}
+
+/* Land rover 17
+  --------------------------------------------------------------------------- */
+.six.columns h1 {
+  font-family: 'Roboto Slab',"Times New Roman",Times,serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+i.fas.fa-map-marker-alt {
+  padding: 5px;
+  font-weight: 600;
+}
+
+.six.columns h1:last-child {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+h2:first-child {
+  font-family: 'Roboto Slab',"Times New Roman",Times,serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+a {
+  color: #0a67c7;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #0a67c7;
+  text-decoration: underline;
+}
+
+i.fas.fa-angle-right {
+  padding: 5px;
+  font-weight: 600;
+}
+
+s {
+  color: #666;
+  text-align: right;
+  font-size: 14px;
+  padding-left: 155px;
+}
+
+h3 {
+  font-family: 'Roboto Slab',"Times New Roman",Times,serif;
+  font-size: 30px;
+  text-align: right;
+  width: 215px;
+  margin-top: -5px;
+  height: 1px;
+}
+
+h4 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-align: right;
+  width: 215px;
+  padding-top: 40px;
+}
+
+/* Box 
+  --------------------------------------------------------------------------- */
+div.four.columns {
+  width: 100px;
+  margin-right: 44px;
+}
+  
+.four.columns h1 {
+  color: #666;
+  font-weight: 400;
+  font-size: 16px;
+}  
+  
+.four.columns strong {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500px;
+}  
+
+div.detail .div.row {
+  border: 1px solid #f9f7f6;
+  width: 475px;
+  height: 110px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: #c9c9c9;
+  background-color: #f9f7f6;
+}
+/* Safe business
+  --------------------------------------------------------------------------- */  
+strong {
+  font-size: 13px;
+}
+
+div.safe.business h2  {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+}
+
+div.safe.bussiness {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+}
+
+.safe.business p {
+  font-size: 14px;
+  margin-bottom: 0; 
+}
+ 
+/* 2 columns 
+  --------------------------------------------------------------------------- */    
+.six.columns {
+  margin: 0;
+} 
+
+div.utrustning p {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+div.utrustning ul {
+  list-style-type: initial;
+}
+
+div.utrustning li {
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+div.utrustning h2 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+/* Additional information (4 columns) 
+  --------------------------------------------------------------------------- */ 
+div.additional.information p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: -110px;
+}
+
+div.additional.information ul {
+   margin-left: -143px;
+}
+
+/* Blocket
+  --------------------------------------------------------------------------- */ 
+.blocket h2 {
+  font-family: 'Roboto Slab',"Times New Roman",Times,serif;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.blocket h3 {
+  margin: 0px;
+  width: 464px;
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #666;
+  height: 40px;
+  text-align: left;
+}
+/* Hedin bil
+  --------------------------------------------------------------------------- */ 
+div.hedin.bil h4 {
+  font-size: 17px;
+  width: 473px;
+  padding-top: 15px;
+  text-align: left;
+  
+}
+
+div.hedin.bil p {
+  border-right: 1px solid #ccc;
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Ads
+  --------------------------------------------------------------------------- */ 
+div.ads h4 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  padding-top: 40px;
+  font-weight: 600;
+  border-bottom: 1px solid #c9c9c9;
+  width: 725px;
+}
+
+div.four.columns img {
+  margin-left: -100px;
+  float: left;
+  margin-bottom: 25px;
+}
+
+div.eight.columns h5 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin-left: -75px;
+}
+
+div.eight.columns h6 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin-left: -74px;
+  margin-top: 24px;
+}
+
+div.eight.columns a{
+  font-size: 14px;
+  margin-left: -75px;
+  margin-top: 22px;
+  display: inline-block;
+}
+
+div.eight.columns p {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  font-size: 13px;
+  color: #666;
+  font-weight: 400;
+  width: 100px;
+  margin-left: 370px;
+  margin-top: -150px;
+  margin-bottom: 0;
+}
+ 
+/* Redaktionellt-Editorial
+  --------------------------------------------------------------------------- */
+div.redaktionellt h1 {
+  font-size: 17px;
+  margin-left: 8px;
+}
+
+
+/* Information (4 columns)
+  --------------------------------------------------------------------------- */
+.footer {
+  display: block;
+  background-color: #fff;
+}
+
+.three.columns h1 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  color:#000;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.three.columns h2 {
+  font-family: 'Open Sans',Verdana,Helvetica,sans-serif;
+  color:#777;;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.three.columns h2:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,322 @@
+html {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.app {
+  white-space: nowrap;
+  font-size: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  
+}
+/* Page
+  --------------------------------------------------------------------------- */
+.page {
+  height: 768px;
+  width: 1024px;
+  display: inline-block;
+  position:relative;
+  vertical-align: top;
+  font-size: 20px;
+  background-color: aqua;
+  
+}
+
+/* Buttons
+  --------------------------------------------------------------------------- */
+ 
+button {
+  position: absolute;
+  bottom: 40px;
+  color: #fff !important;
+  text-shadow: 1px 1px #00bcd4;
+  text-transform: uppercase;
+  background: #00ffff;
+  padding: 7px;
+  border: 2px solid #fff!important;
+  border-radius: 6px;
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+  cursor: pointer;
+  width: 50px;
+  height: 44px;
+  box-shadow: 2px 2px #d3d3f8;
+}
+
+.age .next {
+  display: none;
+}
+
+.fruit .next {
+  display: none;
+}
+
+.smells .next {
+  display: none;
+}
+
+.flavors .next {
+  display: none;
+}
+
+.back {
+  left: 40px;
+}
+
+.next {
+  right: 40px;
+}
+
+button.save {
+  position: absolute;
+  bottom: 40px;
+  margin-left: 930px;
+}
+/* Page Intro
+  --------------------------------------------------------------------------- */
+div.page.intro img {
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+.page.intro p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 2px 2px #00bcd4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%,-50%);
+  z-index: 100;
+}
+
+
+/* Clouds 
+  --------------------------------------------------------------------------- */
+.cloud {
+	width: 200px; height: 60px;
+	background: #fff;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #fff;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; 
+	height: 120px;
+	top: -55px; 
+	left: auto; 
+	right: 15px;
+}
+
+
+.x1 {
+  left: -250px; 
+	top: 145px;
+	
+	
+  
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+
+.x2 {
+	left: 200px;
+	top: 10px;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; 
+	-webkit-animation: moveclouds 39s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+	left: -250px; 
+	top: 75px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8;
+	
+	-webkit-animation: moveclouds 36s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+	left: 464px;
+	 top: 5px;
+	
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
+	opacity: 0.75; 
+	
+	-webkit-animation: moveclouds 23s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+	left: -66px; 
+	top: -195px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; 
+	
+	-webkit-animation: moveclouds 29s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}  
+  
+  
+  
+  
+
+/* Page Age
+  --------------------------------------------------------------------------- */
+
+
+div.foo.age {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-shadow: 2px 2px #00bcd4;
+  font-size: 30px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px #d3d3f8;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+a:hover {
+  color: #d3d3f8;
+}
+
+/* Page Fruit
+  --------------------------------------------------------------------------- */
+div.fruits {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-shadow: 2px 2px #00bcd4;
+  font-size: 30px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px #d3d3f8;
+}
+
+/* Page Smells
+  --------------------------------------------------------------------------- */
+div.smell {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-shadow: 2px 2px #00bcd4;
+  font-size: 30px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px #d3d3f8;
+}
+
+/* Page Flavors
+  --------------------------------------------------------------------------- */
+div.flavor {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-shadow: 2px 2px #00bcd4;
+  font-size: 30px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px #d3d3f8;
+}
+
+/* Page End
+  --------------------------------------------------------------------------- */
+div.results {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-shadow: 2px 2px #00bcd4;
+  font-size: 30px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px #d3d3f8;
+}
+
